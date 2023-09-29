@@ -22,3 +22,34 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignore arquivos gerados pelo sistema operacional
+.DS_Store
+
+# Ignore arquivos gerados por IDEs e editores de texto
+.idea/
+.vscode/
+
+# Ignore os diretórios e arquivos de compilação Java
+/target/
+*.class
+
+# Ignore os módulos Node.js e as dependências
+node_modules/
+npm-debug.log
+
+# Ignore os arquivos de compilação e logs do Spring Boot
+/build/
+*.log
+
+# Ignore os arquivos de configuração específicos do sistema
+application.properties
+
+# Ignore arquivos temporários
+*.tmp
+
+# Ignore arquivos de cache
+*.cache
+
+# Ignore o diretório de produção do React
+build/
