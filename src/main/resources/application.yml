@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: shopping-list
+      port: 27017
+      host: localhost
